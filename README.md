@@ -1,5 +1,5 @@
 # Scripts
 
 Perl repository 
----------------------------------------------------------------------
-parse_hoa :: hash of array template
+
+parse_hoa.pl :: hash of array template
