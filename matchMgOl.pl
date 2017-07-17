@@ -28,7 +28,7 @@ B<--help,-h>
 	Fasta file that containing MgOl sequences that had a representative Uniref cluster member.  	
 	
 =head1  CONTACT
-        Zach Schreiber @ zschreib[at]gmail[dot]com
+        Zach Schreiber @ zschreibr[at]gmail[dot]com
 
 =head1 EXAMPLE
          matchCluster.pl -i1=MgOl100.clstr -i2=Uniref100.fasta
