@@ -23,7 +23,7 @@ B<--help,-h>
              
         
 =head1  CONTACT
-        Zach Schreiber @ zschreib[at]gmail[dot]com
+        Zach Schreiber @ zschreibr[at]gmail[dot]com
 
 =head1 EXAMPLE
          template.pl -i1= -i2=
