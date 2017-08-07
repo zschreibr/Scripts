@@ -90,6 +90,7 @@ foreach my $ctgid (keys %$rHoH){
                 	if(exists $rHoH->{$ctgid}->{'POSITION'}[$i]){
                 		for (my $j = $i+1; $j < scalar(@{$rHoH->{$ctgid}->{'POSITION'}}); $j++) {
 					if(exists $rHoH->{$ctgid}->{'POSITION'}[$j]){
+							my $bc = $rHoH->{$ctgid}->{'POSITION'}[$j] - $rHoH->{$ctgid}->{'POSITION'}[$i];
                         				$counter{$bc}++;
                 			}
                                 }
@@ -98,6 +99,7 @@ foreach my $ctgid (keys %$rHoH){
                 		if(exists $rHoH->{$ctgid}->{'POSITION'}[$i]){
                       			if(exists $rHoH->{$ctgid}->{'POSITION'}[$j]){
                        				if(exists $rHoH->{$ctgid}->{'POSITION'}[$i]){
+						      my $ab = $rHoH->{$ctgid}->{'POSITION'}[$i] - $rHoH->{$ctgid}->{'POSITION'}[$j];
 						      $counter{$ab}++;
                 				}
 
