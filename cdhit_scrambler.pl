@@ -7,13 +7,9 @@
 
 =head1 SYNOPSIS
 
-USAGE: execute_pipeline.pl --input_file=/path/to/input_file.clstr
-                           --iterations= number
-			   --help
-=head1 OPTIONS
+USAGE: execute_pipeline.pl --input_file=/path/to/input_file.clstr --iterations= number --help
 
-B<--help, -h>
-    Help
+=head1 OPTIONS
 
 =head1  INPUT
 
